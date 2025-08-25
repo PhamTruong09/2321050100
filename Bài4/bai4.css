@@ -1,0 +1,32 @@
+h1{
+    background-color: black;
+}
+MARQUEE{
+    background-color: blue;
+    color:chartreuse;
+    border:5px solid black;
+}
+textarea{
+    background-color:rgb(218, 247, 4);
+    color:darkred;
+}
+h2{
+    color:bisque;
+    background-color: green;
+}
+.box1{
+                background-color: red;
+            
+            }  
+.box2{
+                background-color: green;
+                /*4 giá trị: trên, phải dưới trái*/
+                margin:50px 10px 100px 50px;
+                width:50%;
+                margin: 50px auto;
+                padding:100px;
+
+            }
+.box3{
+                background-color:yellow;
+            }
