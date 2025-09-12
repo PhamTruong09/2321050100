@@ -1,11 +1,18 @@
 <html>
     <head>
         <title>Bài 3</title>
+        <style>
+            .a{
+                color:black;  
+                font-size:15;
+            }
+        </style>
+        <link rel="stylesheet" href="bai3.css" type="text/css">
     </head>
     <body>
         <form>
-            <MARQUEE>Jack-J97 đã vượt mặt tất cả các ca nhạc sĩ của Việt Nam-Đóm ơi hay cùng thắp sáng cả bầu trời này nào!!!!</MARQUEE>
-            Họ và Tên: <input type="text" name="hoten" placeholder="Nhập Họ và Tên">
+            <MARQUEE><h1>Jack-J97 đã vượt mặt tất cả các ca nhạc sĩ của Việt Nam-Đóm ơi hay cùng thắp sáng cả bầu trời này nào!!!!</h1></MARQUEE>
+            <p><b>Họ và Tên</b></p> <input type="text" name="hoten" placeholder="Nhập Họ và Tên">
             <p><b>Năm</b></p>
             <input type=" " text value="2025" readonly><!--readonly là chỉ đọc ko được chỉnh sửa-->
             <p><b>Giới thiệu bản thân</b></p>
@@ -17,21 +24,21 @@
                 placeholder="Nhập số điện thoại">
             <p><b>Giới tính</b></p>
             <input type="radio" name="giới tính" value="nam">
-            <p><b>Nam</b></p>
+            <p class="a"><b>Nam</b></p>
             <input type="radio" name="giới tính" value="nữ">
-            <p><b>Nữ</b></p>
+            <p class="a"><b>Nữ</b></p>
             <input type="radio" name="giới tính" value="Không xác định">
-            <p><b>Không xác định</b></p>
+            <p class="a"><b>Không xác định</b></p>
             <p><b>Sở thích</b></p>
             <input type="checkbox" name="sở thích" value="đá bóng">
-            <p>Đá bóng</p>
+            <p class="a">Đá bóng</p>
             <input type="checkbox" name="sở thích" value="ca hát">
-            <p>Ca hát</p>
+            <p class="a">Ca hát</p>
             <input type="checkbox" name="sở thích" valur="lập trình">
-            <p>Lập trình</p>
+            <p class="a">Lập trình</p>
             <p><b>Danh sách wed</b></p>
             <input list="browsers">
-            <datalist id="browsers">
+            <datalist id="browsers">    
                 <option value="Interner"></option>
                 <option value="Chorme"></option>
             </datalist>

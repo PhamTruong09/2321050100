@@ -1,0 +1,11 @@
+body{
+    margin:0px;
+}
+.trangchu{
+    display:flex;
+}
+.left{
+    width:33%;
+    height:100vh;
+    background-color:blue;
+}
