@@ -1,0 +1,66 @@
+.tieude {
+  border-bottom: 2px solid gray;
+}
+.tieude b {
+  display: flex;
+  justify-content: center;
+}
+.tieude1 {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  color: blue;
+  display: flex;
+  justify-content: center;
+}
+.khung {
+  background-color: bisque;
+  width: 30%;
+  height: 80vh;
+  margin: auto;
+}
+.dangnhap {
+  display: flex;
+  justify-content: space-between;
+}
+.dangnhap input {
+  width: 47%;
+  height: 20px;
+}
+.dangky {
+  width: 90%;
+  margin: auto;
+}
+.gioitinh {
+  display: flex;
+  margin: auto;
+}
+.khoi {
+  margin: auto;
+  border: 2px solid gray;
+  width: 30%;
+}
+.sdt {
+  margin-top: 20px;
+}
+.sdt input {
+  width: 100%;
+  height: 30px;
+}
+.submit {
+  margin: auto;
+  background-color: green;
+  width: 40%;
+  height: 50px;
+}
+.submit h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.cuoi div {
+  display: flex;
+  justify-content: center;
+}
