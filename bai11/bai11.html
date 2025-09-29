@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Mảng
+      let arr = [1, 2, 3, 4, "a", "b", "c", 2, 3];
+      let ten = "ten";
+      let thongtin = {
+        ten: "ten",
+      };
+      // kiểm tra 1 biến xem có pr mảng hay ko
+      document.writeln(Array.isArray(arr));
+      document.writeln(arr.length);
+      document.writeln(arr[2]);
+      // kiểm tra trong mảng có phần tử mk cần tìm kiếm hay ko
+      document.writeln(arr.indexOf(3));
+      // trả ra vị trí cuối
+      document.writeln(arr.lastIndexOf(3));
+      // thay đổi giá trị trong mảng
+      //   arr[3] = 6;
+      //   document.writeln(arr);
+      //   let a, b, c, d;
+      //   a = [1, 2, 3];
+      //   b = "JavaScript";
+      //   c = [42, "VBJavaScript"];
+      //   d = a.concat(b, c);
+      //d = d.join("-");
+      // xóa đi phần tử cuối cùng trong mảng
+      //   d.pop();
+      //   d.reverse();
+      //   d.push("Tâm");
+      //xóa phần tử đầu tiên
+      //   d.shift();
+      //thêm phần tử vào đầu mảng
+      //   d.unshift("Trường");
+      //   document.writeln(d);
+      //   let so = "1000000000000000000000000000001";
+
+      //   if (so[parseInt(so.length - 1)] % 2 == 0) {
+      //     document.writeln(so + " là số chẵn");
+      //   } else {
+      //     document.writeln(so + "là số lẻ");
+      //   }
+      //   let now = new Date().getHours();
+      //   if (now >= 5 && now <= 10) {
+      //     document.writeln("Chào buổi sáng");
+      //   } else {
+      //     docmuent.writeln(" Chào buổi Tối");
+      //   }
+      document.writeln("<br> Điểm trung bình theo hệ chữ+<br> ");
+
+      let a = 10,
+        b = 9,
+        c = 10;
+
+      let diem = a * 0.6 + b * 0.3 + c * 0.1;
+      if (8 <= diem && diem <= 10) {
+        document.writeln("A");
+      } else if (7 <= diem && diem < 8) {
+        document.writeln("B");
+      } else if (5 <= diem && diem < 7) {
+        document.writeln("C");
+      } else if (4 <= diem && diem < 5) {
+        document.writeln("D");
+      } else if (diem < 4) {
+        document.writeln("E");
+      } else {
+        document.writeln("điểm ko hợp lệ");
+      }
+    </script>
+  </body>
+</html>
