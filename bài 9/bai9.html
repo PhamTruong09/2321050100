@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 9</title>
+    <link rel="stylesheet" href="./bai9.css" />
+  </head>
+  <body>
+    <!--Viết External java-->
+    <script src="./script.js"></script>
+    <script type="">
+      // để viết ghi chú js dùng kí tự"//"
+      // Dấu "+" dùng để nỗi chuỗi
+      document.writeln("Hello World" + "<br>");
+      let hoTen = "Phạm Đan Trường";
+      // var và let là tương tự với nhau
+      document.writeln(hoTen + "<br>");
+      //khai báo hằng trong javaSctipt dung const
+      const pi = 3.14;
+      let so1 = 10;
+      let so2 = "10";
+      let ketQua = 0;
+      ketQua = so1 % so2;
+      document.writeln(!(so1 !== so2));
+      document.writeln("in ra màn hình kết quả" + ketQua);
+      let a; // nếu ịn ra màn hình sẽ hiện undderfile nghìa là ko có dữ liệu
+      let thongTinSinhVien = {
+        //key ngắt nhau bằng giới phẩy
+        // có thể lồng nhiều object vào trong 1 object
+        hoTen: "Phạm Đan Trường",
+        tuoi: 20,
+        gioiTinh: true,
+        lop: "Công Nghệ PHần Mềm K68",
+      };
+      let diaChiPhamTruong = {
+        thanhPho: "Hưng Yên",
+        diaChi: "Nam Thụy ANh",
+      };
+      let namNay = 2025;
+      thongTinSinhVien.diaChi = diaChiPhamTruong;
+      document.writeln(
+        "Xin chao" +
+          thongTinSinhVien.hoTen +
+          thongTinSinhVien.tuoi +
+          thongTinSinhVien.diaChi.thanhPho +
+          (namNay - thongTinSinhVien.tuoi)
+      );
+      //chuyển đồi thành số
+      so2 = parseInt(so2);
+      document.writeln(typeof so2);
+    </script>
+  </body>
+</html>
